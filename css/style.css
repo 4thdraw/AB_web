@@ -49,16 +49,17 @@ a{ color:#222; text-decoration: none;}
 .h200{ height: 200px;}
 
 
-.d1a{
+.d1a{ /*대메뉴 a*/
+
     font-size: 22px;
 }
-.d2ul{
+.d2ul{ /*소메뉴 박스*/
     background-color: white;
     height:0;
     overflow: hidden;
     transition: 0.5s;   
 }
-.d2ul li{
+.d2ul li{ /*소메뉴 리스트*/
     line-height:35px; /*한줄간격 height 가 아닌 line-height로 한 이유????? 글자가 있으니깐*/
 }
 .d1li:hover .d2ul{
